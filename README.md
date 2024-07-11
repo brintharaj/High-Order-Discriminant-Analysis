@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 The reference paper can be found at this link: https://www.jstage.jst.go.jp/article/nolta/1/1/1_1_37/_article .
 
-High order discriminant analysis (HODA) is especially useful to decompose high dimensional data structure, pattern recognition, and to reduce the risk of overfitting for image segmentation/detection tasks. Reducing the original raw data tensor to a lower dimensional representation is also expected to produce significant time savings for model fitting. 
+High order discriminant analysis (HODA) is especially useful to decompose high dimensional data structure, often present when working with datasets such as images. It can be used for pattern recognition, and to reduce the risk of overfitting for image segmentation/detection tasks. Reducing the original raw data tensor to a lower dimensional representation is also expected to produce significant time savings for model fitting. This notebook explores HODA to decompose the image dataset from its original, raw tensor of pixel intensity representation to a lower dimensional structure. 
 
 ## Overview
 
